@@ -1,14 +1,14 @@
 import React from 'react'
 import './about.css'
 
-import ME from '../../assets/images/me-about.jpg'
+import ME from '../../assets/images/foto-tag-cor.png'
 import { FaAward } from 'react-icons/fa'
 
 const about = () => {
   return (
     <section id="about">
-      <h5>Get To Know</h5>
-      <h2>About me</h2>
+      <h5>Um pouco</h5>
+      <h2>Sobre mim</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -21,30 +21,31 @@ const about = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className='about__icon' />
-              <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <h5>Experiencia</h5>
+              <small>Professor - Proz NovoTec 6 Meses</small>
             </article>
 
             <article className="about__card">
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>2+ Years Working</small>
-            </article>
-
-            <article className="about__card">
-              <FaAward className='about__icon' />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>Freelancer Fullstack 1 - ano</small>
+              
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum sed optio voluptas
-             excepturi reprehenderit consequuntur odio dignissimos, quis non labore magni accusantium
-              modi dolore, ab dolor error odit iure alias?
+            Meu nome é César Diego, sou de Cruzeiro/SP, atualmente trabalho como freelancer e sou professor
+            de
+            TI, ensino Interface Web,
+            Logica
+            de
+            Programação, Java, PHP, Dispositivos Moveis entre outras e como professor tambem sou um pequeno
+            aprendiz
+            querendo evoluir ainda mais. Sou estudante de tecnologia pela Digital House - Certifed
+            Tech Developer e estou buscando boas oportunidades como desenvolvedor.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary'>Contato</a>
         </div>
 
       </div>

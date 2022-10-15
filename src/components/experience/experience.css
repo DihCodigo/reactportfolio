@@ -40,6 +40,35 @@
     color: var(--color-primary);
 }
 
+/*BAR-SKILL*/
+.bar__skill {
+    width: 6rem;
+    height: 0.8rem;
+    border: 1px solid black;
+    border-radius: 1px;
+    
+}
+/*100%*/
+.porcent100 {background: linear-gradient(to right, #0b22f5 0%, #4cf24c 100%, white 100%);}
+/*90%*/
+.porcent90 {background: linear-gradient(to right, #0b22f5 0%, #4cf24c 90%, white 90%);}
+/*80%*/
+.porcent80 {background: linear-gradient(to right, #0b22f5 0%, #4cf24c 80%, white 80%);}
+/*70%*/
+.porcent70 {background: linear-gradient(to right, #0b22f5 0%, #4cf24c 70%, white 70%);}
+/*60%*/
+.porcent60 {background: linear-gradient(to right, #0b22f5 0%, #4cf24c 60%, white 60%);}
+/*50%*/
+.porcent50 {background: linear-gradient(to right, #0b22f5 0%, #4cf24c 50%, white 50%);}
+/*40%*/
+.porcent40 {background: linear-gradient(to right, #0b22f5 0%, #4cf24c 40%, white 40%);}
+/*30%*/
+.porcent30 {background: linear-gradient(to right, #0b22f5 0%, #4cf24c 30%, white 30%);}
+/*20%*/
+.porcent20 {background: linear-gradient(to right, #0b22f5 0%, #4cf24c 20%, white 20%);}
+/*20%*/
+.porcent10 {background: linear-gradient(to right, #0b22f5 0%, #4cf24c 10%, white 100%);}
+
 /*MEDIAQUERY (MEDIO PORTE)*/
 @media screen and (max-width: 1024px) {
     .experience__container {
@@ -69,3 +98,4 @@
         padding: 2rem 1rem;
     }
 }
+

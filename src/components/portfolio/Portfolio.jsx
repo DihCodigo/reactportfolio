@@ -2,9 +2,10 @@
 import React from 'react'
 import './portfolio.css'
 
-import IMG1 from '../../assets/images/portfolio1.jpg'
-import IMG2 from '../../assets/images/portfolio2.jpg'
-import IMG3 from '../../assets/images/portfolio3.jpg'
+import IMG1 from '../../assets/images/api.png'
+import IMG2 from '../../assets/images/jvelha.PNG'
+import IMG3 from '../../assets/images/pminas.png'
+import IMG4 from '../../assets/images/siteescolar.JPG'
 
 const data = [
 
@@ -12,30 +13,37 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'API Restful Node',
-    github: 'https://github.com/DihCodigo',
+    github: 'https://github.com/DihCodigo/Api_restful',
     demo: ''
   },
   {
     id: 2,
     image: IMG2,
     title: 'Jogo da Velha',
-    github: 'https://github.com/DihCodigo',
-    demo: ''
+    github: 'https://github.com/DihCodigo/meusProjetos/tree/master/jogoVelha',
+    demo: 'https://dihcodigo.github.io/meusProjetos/jogoVelha/index.html'
   },
   {
     id: 3,
     image: IMG3,
     title: 'Landing Page',
-    github: 'https://github.com/DihCodigo',
-    demo: ''
+    github: 'https://github.com/DihCodigo/meusProjetos/tree/master/PrazerMinas',
+    demo: 'https://dihcodigo.github.io/meusProjetos/PrazerMinas/index.html'
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Site de educação/escola',
+    github: 'https://github.com/DihCodigo/meusProjetos/tree/master/SuperProject',
+    demo: 'https://dihcodigo.github.io/meusProjetos/SuperProject/index.html'
   }
 ]
 
 const Portfolio = () => {
   return (
     <section className="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>Alguns recentes</h5>
+      <h2>Projetos</h2>
 
       <div className="container portfolio__container">
         {
