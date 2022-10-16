@@ -37,7 +37,7 @@ const about = () => {
             Meu nome é César Diego, sou de Cruzeiro/SP, atualmente trabalho como freelancer e sou professor
             de
             TI, ensino Interface Web,
-            Logica
+            Lógica
             de
             Programação, Java, PHP, Dispositivos Moveis entre outras e como professor tambem sou um pequeno
             aprendiz
