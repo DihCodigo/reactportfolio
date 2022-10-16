@@ -39,7 +39,7 @@ const about = () => {
             TI, ensino Interface Web,
             Lógica
             de
-            Programação, Java, PHP, Dispositivos Moveis entre outras e como professor tambem sou um pequeno
+            Programação, Java, PHP, Dispositivos Moveis entre outros, e como professor também sou um pequeno
             aprendiz
             querendo evoluir ainda mais.
             Sou estudante de tecnologia pela Digital House - Certifed
