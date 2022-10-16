@@ -52,7 +52,7 @@ const Services = () => {
             </li>
             <li>
               <BsClipboardCheck className='service__list-icon' />
-              <p>Um breve conhecimento com framework como "Laravel".</p>
+              <p>Conhecimento no framework laravel.</p>
             </li>
           </ul>
         </article>

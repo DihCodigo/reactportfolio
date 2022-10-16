@@ -21,15 +21,15 @@ const about = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className='about__icon' />
-              <h5>Experiencia</h5>
+              <h5>experiência</h5>
               <small>Professor - Proz NovoTec 6 Meses</small>
             </article>
 
             <article className="about__card">
               <FaAward className='about__icon' />
-              <h5>Experience</h5>
+              <h5>experiência</h5>
               <small>Freelancer Fullstack 1 - ano</small>
-              
+
             </article>
           </div>
 
@@ -41,8 +41,9 @@ const about = () => {
             de
             Programação, Java, PHP, Dispositivos Moveis entre outras e como professor tambem sou um pequeno
             aprendiz
-            querendo evoluir ainda mais. Sou estudante de tecnologia pela Digital House - Certifed
-            Tech Developer e estou buscando boas oportunidades como desenvolvedor.
+            querendo evoluir ainda mais.
+            Sou estudante de tecnologia pela Digital House - Certifed
+            Tech Developer.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Contato</a>
