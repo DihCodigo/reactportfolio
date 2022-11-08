@@ -14,7 +14,7 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/cesar-diego-anovich-1a5932125/" target="_blank"><BsLinkedin className="footer__socials-icon"/></a>
+        <a href="https://www.linkedin.com/in/cesar-diego-anovich/" target="_blank"><BsLinkedin className="footer__socials-icon"/></a>
         <a href="https://github.com/DihCodigo" target="_blank"><BsGithub className="footer__socials-icon"/></a>
         
       </div>
